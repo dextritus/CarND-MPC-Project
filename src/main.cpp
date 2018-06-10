@@ -103,6 +103,7 @@ int main() {
 
           std::cout<<acceleration<<endl;
 
+          // https://en.wikipedia.org/wiki/Rotation_matrix
           for (int i = 0; i < ptsx.size(); i++) {
             double move_x = ptsx[i] - px; // new x and y for the path in the car coord system
             double move_y = ptsy[i] - py;
